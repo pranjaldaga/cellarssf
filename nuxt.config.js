@@ -44,7 +44,8 @@ export default {
   /*
    ** Nuxt.js modules
    */
-  modules: ['@nuxtjs/pwa'],
+  modules: ['@nuxtjs/pwa', '@nuxtjs/axios'],
+  axios: {},
   /*
    ** Build configuration
    */

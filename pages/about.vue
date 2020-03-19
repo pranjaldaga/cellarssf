@@ -33,7 +33,12 @@
       by
       <a
         href="https://somemealsconsidered.substack.com/p/the-government-must-help"
+        target="_BLANK"
         >Emily Wilson's call to "Raid The Cellars!"</a
+      >
+      and innovative thinking by
+      <a href="https://nextdoorspacebk.com/collections/wine" target="_blank"
+        >The Four Horsemen</a
       >. Call or text us at <a href="tel:718-550-3498">718-550-3498</a> with any
       questions.
     </p>
