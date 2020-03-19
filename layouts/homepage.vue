@@ -28,7 +28,7 @@
                 >
                   Your local restaurant has thousands of dollars of food and
                   beverage inventory sitting in their cellars. Help them stay
-                  alive by buying it.
+                  alive by buying it!
                 </p>
                 <div
                   class="mt-5 sm:mt-8 sm:flex sm:justify-center lg:justify-start"
@@ -38,7 +38,7 @@
                       to="/map"
                       class="flex items-center justify-center w-full px-8 py-3 text-base font-medium leading-6 text-white transition duration-150 ease-in-out border border-transparent rounded-md bg-contraption-primary-600 hover:bg-contraption-primary-500 focus:outline-none focus:shadow-outline md:py-4 md:text-lg md:px-10"
                     >
-                      Find local cellars
+                      View restaurant map
                     </nuxt-link>
                   </div>
                   <div class="mt-3 sm:mt-0 sm:ml-3">
