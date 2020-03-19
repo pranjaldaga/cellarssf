@@ -1,17 +1,40 @@
 <template>
-  <div>
+  <div class="w-full h-full">
     <GmapMap
       :center="{ lat: 40.7128, lng: -74.006 }"
       :zoom="11"
-      style="width: 100%; height: 500px"
+      style="width: 100%; height: 100%; min-height: 400px;"
     >
       <GmapMarker
         v-for="r in restaurants"
         :key="r.id"
         :position="r.fields.geo.loc"
         :clickable="true"
+        :label="r.fields.Title"
+        :visible="true"
+        @click="
+          infoWinOpen = r.id
+          infoWinPos = r.fields.geo.loc
+        "
+      >
+        {{ r.fields.Description }}
+      </GmapMarker>
+
+      <GmapInfoWindow
+        v-for="r in restaurants"
+        :key="r.id"
+        :clickable="true"
         :draggable="true"
-      />
+        :title="r.fields['NAME']"
+        :position="infoWinPos"
+        :opened="infoWinOpen === r.id"
+        @closeclick="
+          infoWinOpen = null
+          infoWinPos = null
+        "
+      >
+        {{ r.fields.Description }}
+      </GmapInfoWindow>
     </GmapMap>
   </div>
 </template>
@@ -33,22 +56,22 @@ export default {
   },
   data() {
     return {
-      fields: {
-        BUY_LINK: 'Buy link',
-        GEOCACHE: 'Geocache',
-        SELLING_BEER: 'Selling Beer',
-        PHONE: 'Phone',
-        ADDRESS: 'Address',
-        SELLING_COCKTAILS: 'Selling Cocktails',
-        DESCRIPTION: 'Description',
-        SELLING_WINE: 'Selling Wine',
-        NAME: 'Name'
-      }
+      infoOpen: null,
+      infoWinPos: null
     }
   },
   computed: {
     ...mapState('restaurants', ['restaurants'])
   },
-  methods: {}
+  methods: {
+    infoOptions(r) {
+      return {
+        pixelOffset: {
+          width: 0,
+          height: 35
+        }
+      }
+    }
+  }
 }
 </script>

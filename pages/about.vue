@@ -13,16 +13,16 @@
       <a href="https://sla.ny.gov/Restrictions-in-Response-to-COVID-19"
         >allowing restaurants to sell to-go alcohol</a
       >
-      alongside food. Most restaurants have thousands of dollars in prepaid
-      inventory, which they can sell to support their businesses. Plus, who
-      doesn't love wine?
+      alongside food. Most restaurants have thousands of dollars in food and
+      alcohol, which they can sell to support their businesses. So, buy some
+      wine from your local restaurants and help them weather this crisis.
     </p>
     <p
       class="mt-3 text-base text-gray-500 sm:mt-5 sm:text-lg sm:max-w-xl md:mt-5 md:text-xl lg:mx-0"
     >
       While
       <a href="https://www.helpmainstreet.com/">buying gift cards</a> is one way
-      to support local businesses, it's still a "loan" that the business must
+      to support local businesses, it's still a "loan" that the restaurant must
       eventually pay back. By selling prepaid inventory, restaurants can get
       cash upfront that they can spend without worry.
     </p>
@@ -36,7 +36,7 @@
         target="_BLANK"
         >Emily Wilson's call to "Raid The Cellars!"</a
       >
-      and innovative thinking by
+      and innovative selling by
       <a href="https://nextdoorspacebk.com/collections/wine" target="_blank"
         >The Four Horsemen</a
       >. Call or text us at <a href="tel:718-550-3498">718-550-3498</a> with any

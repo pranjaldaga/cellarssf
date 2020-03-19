@@ -1,23 +1,15 @@
 <template>
-  <div>
-    <div class="relative h-screen overflow-hidden bg-white">
-      <div class="h-full max-w-screen-xl mx-auto">
-        <div
-          class="relative z-10 h-full pb-8 bg-white sm:pb-16 md:pb-20 lg:max-w-2xl lg:w-full lg:pb-28 xl:pb-32"
-        >
-          <navbar />
-
-          <div
-            class="max-w-screen-xl px-4 mx-auto mt-10 sm:mt-12 sm:px-6 md:mt-16 lg:mt-20 lg:px-8 xl:mt-28"
-          >
-            <div class="h-full text-left">
-              <div>
-                <nuxt />
-              </div>
-            </div>
-          </div>
+  <div class="flex flex-col h-screen overflow-hidden bg-white">
+    <div class="w-full shadow ">
+      <div class="w-full h-full max-w-screen-xl mx-auto">
+        <div class="z-10 block h-full bg-white">
+          <navbar class="pb-6" />
         </div>
       </div>
+    </div>
+
+    <div class="flex-grow w-full">
+      <nuxt />
     </div>
   </div>
 </template>

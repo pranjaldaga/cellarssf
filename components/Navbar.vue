@@ -1,6 +1,6 @@
 <template>
   <div>
-    <div class="px-4 pt-6 sm:px-6 lg:px-8">
+    <div class="z-10 max-w-screen-xl px-4 pt-6 sm:px-6 lg:px-8">
       <nav
         class="relative flex items-center justify-between h-full sm:h-10 lg:justify-start"
       >
@@ -41,7 +41,7 @@
             v-for="(v, k, i) in menu"
             :key="i"
             :to="v"
-            class="font-medium text-gray-500 transition duration-150 ease-in-out navlink hover:text-gray-900 focus:outline-none focus:text-gray-900"
+            class="py-1 font-medium text-gray-500 transition duration-150 ease-in-out navlink hover:text-gray-900 focus:outline-none focus:text-gray-900"
             :class="{ 'ml-8': i > 0 }"
             >{{ k }}</nuxt-link
           >
@@ -51,7 +51,7 @@
 
     <div
       v-show="open"
-      class="absolute inset-x-0 top-0 p-2 transition duration-150 ease-in-out origin-top-right transform md:hidden "
+      class="absolute inset-x-0 top-0 z-10 p-2 transition duration-150 ease-in-out origin-top-right transform md:hidden "
     >
       <div class="rounded-lg shadow-md">
         <div class="overflow-hidden bg-white rounded-lg shadow-xs">
@@ -116,7 +116,7 @@ export default {
 </script>
 
 <style scoped>
-.navlink .nuxt-link-active {
-  @apply border-b border-gray-100;
+.navlink.nuxt-link-active {
+  @apply border-b-2 border-contraption-primary-500;
 }
 </style>
