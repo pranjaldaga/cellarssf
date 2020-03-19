@@ -6,14 +6,14 @@
       Submit a restaurant
     </h2>
     <p
-      class="mt-3 text-base text-gray-500 sm:mt-5 sm:text-lg sm:max-w-xl md:mt-5 md:text-xl lg:mx-0"
+      class="mt-5 text-base text-gray-500 md:mt-8 sm:mt-10 lg:mt-14 sm:text-lg sm:max-w-xl md:text-xl lg:mx-0"
     >
       This site is built as a
       <nuxt-link to="/about">free public service </nuxt-link> to locally-owned
       NYC restaurants that are legally selling to-go alcohol alongside food.
       Call or text us at <a href="tel:718-550-3498">718-550-3498</a> for help!
     </p>
-    <div class="mt-5 text-white sm:mt-8">
+    <div class="mt-8 text-white sm:mt-10 md:mt-14 lg:mt-20">
       <div class="rounded-md">
         <a
           href="https://airtable.com/shrTpAOzZl3XcZ03d"

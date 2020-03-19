@@ -41,7 +41,7 @@
             v-for="(v, k, i) in menu"
             :key="i"
             :to="v"
-            class="font-medium text-gray-500 transition duration-150 ease-in-out hover:text-gray-900 focus:outline-none focus:text-gray-900"
+            class="font-medium text-gray-500 transition duration-150 ease-in-out navlink hover:text-gray-900 focus:outline-none focus:text-gray-900"
             :class="{ 'ml-8': i > 0 }"
             >{{ k }}</nuxt-link
           >
@@ -114,3 +114,9 @@ export default {
   }
 }
 </script>
+
+<style scoped>
+.navlink .nuxt-link-active {
+  @apply border-b border-gray-100;
+}
+</style>
