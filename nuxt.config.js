@@ -4,7 +4,7 @@ export default {
    ** Headers of the page
    */
   head: {
-    title: 'Cellars NYC',
+    title: 'Cellars.NYC',
     meta: [
       { charset: 'utf-8' },
       { name: 'viewport', content: 'width=device-width, initial-scale=1' },
@@ -55,7 +55,7 @@ export default {
       iconSrc: 'assets/icon.png'
     },
     meta: {
-      name: 'Cellars NYC',
+      name: 'Cellars.NYC',
       author: 'Contraption Co.',
       description: 'Save NYC restaurants by buying their wine',
       theme_color: '#5D55FA'
