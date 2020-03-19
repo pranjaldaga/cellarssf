@@ -4,6 +4,6 @@
 
 <script>
 export default {
-  template: 'homepage'
+  layout: 'homepage'
 }
 </script>
