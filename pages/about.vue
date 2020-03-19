@@ -34,7 +34,8 @@
       <a
         href="https://somemealsconsidered.substack.com/p/the-government-must-help"
         >Emily Wilson's call to "Raid The Cellars!"</a
-      >
+      >. Call or text us at <a href="tel:718-550-3498">718-550-3498</a> with any
+      questions.
     </p>
   </div>
 </template>

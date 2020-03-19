@@ -51,7 +51,7 @@
 
     <div
       v-show="open"
-      class="absolute inset-x-0 top-0 p-2 transition origin-top-right transform md:hidden"
+      class="absolute inset-x-0 top-0 p-2 transition duration-150 ease-in-out origin-top-right transform md:hidden "
     >
       <div class="rounded-lg shadow-md">
         <div class="overflow-hidden bg-white rounded-lg shadow-xs">
