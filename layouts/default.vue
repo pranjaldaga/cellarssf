@@ -30,7 +30,7 @@
       <div class="lg:absolute lg:inset-y-0 lg:right-0 lg:w-1/2">
         <img
           class="object-cover w-full h-56 sm:h-72 md:h-96 lg:w-full lg:h-full"
-          src="https://images.unsplash.com/photo-1469234496837-d0101f54be3e?ixlib=rb-1.2.1&auto=format&fit=crop&w=2892&q=80"
+          src="https://images.unsplash.com/photo-1563472023321-6c8f4afff469?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1933&q=80"
           alt="Empty restaurant"
         />
       </div>
