@@ -1,6 +1,8 @@
-# cellarsnyc
+# [Cellars.NYC](https://www.cellars.nyc)
 
-> Your local restaurant thousands of dollars of food and beverage inventory sitting in their cellars. Help them stay alive by buying it. 
+> Your local restaurant thousands of dollars of food and beverage inventory sitting in their cellars. Help them stay alive by buying it.
+
+This work is licensed under a [Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License](http://creativecommons.org/licenses/by-nc-sa/4.0/).
 
 ## Build Setup
 
