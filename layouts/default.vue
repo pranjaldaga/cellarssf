@@ -1,13 +1,13 @@
 <template>
   <div>
     <div class="relative h-screen overflow-hidden bg-white">
-      <div class="max-w-screen-xl mx-auto ">
+      <div class="h-full max-w-screen-xl mx-auto">
         <div
-          class="relative z-10 pb-8 bg-white sm:pb-16 md:pb-20 lg:max-w-2xl lg:w-full lg:pb-28 xl:pb-32"
+          class="relative z-10 h-full pb-8 bg-white sm:pb-16 md:pb-20 lg:max-w-2xl lg:w-full lg:pb-28 xl:pb-32"
         >
           <div class="px-4 pt-6 sm:px-6 lg:px-8">
             <nav
-              class="relative flex items-center justify-between sm:h-10 lg:justify-start"
+              class="relative flex items-center justify-between h-full sm:h-10 lg:justify-start"
             >
               <div
                 class="flex items-center flex-grow flex-shrink-0 lg:flex-grow-0"
@@ -65,12 +65,6 @@
 
           <div
             v-show="open"
-            x-transition:enter="duration-150 ease-out"
-            x-transition:enter-start="opacity-0 scale-95"
-            x-transition:enter-end="opacity-100 scale-100"
-            x-transition:leave="duration-100 ease-in"
-            x-transition:leave-start="opacity-100 scale-100"
-            x-transition:leave-end="opacity-0 scale-95"
             class="absolute inset-x-0 top-0 p-2 transition origin-top-right transform md:hidden"
           >
             <div class="rounded-lg shadow-md">
@@ -140,43 +134,47 @@
           </div>
 
           <div
-            class="max-w-screen-xl px-4 mx-auto mt-10 sm:mt-12 sm:px-6 md:mt-16 lg:mt-20 lg:px-8 xl:mt-28"
+            class="h-full max-w-screen-xl px-4 mx-auto mt-10 sm:mt-12 sm:px-6 lg:mb-8 lg:mt-20 lg:px-8 xl:mt-28"
           >
-            <div class="sm:text-center lg:text-left">
-              <h2
-                class="text-4xl font-extrabold leading-10 tracking-tight text-gray-900 sm:text-5xl sm:leading-none md:text-6xl"
-              >
-                Save local restaurants by
-                <br class="xl:hidden" />
-                <span class="text-contraption-primary-600"
-                  >buying their wine</span
+            <div
+              class="h-full sm:text-center lg:text-left lg:flex lg:items-center"
+            >
+              <div>
+                <h2
+                  class="text-4xl font-extrabold leading-10 tracking-tight text-gray-900 sm:text-5xl sm:leading-none md:text-6xl"
                 >
-              </h2>
-              <p
-                class="mt-3 text-base text-gray-500 sm:mt-5 sm:text-lg sm:max-w-xl sm:mx-auto md:mt-5 md:text-xl lg:mx-0"
-              >
-                Your local restaurant has thousands of dollars of food and
-                beverage inventory sitting in their cellars. Help them stay
-                alive by buying it.
-              </p>
-              <div
-                class="mt-5 sm:mt-8 sm:flex sm:justify-center lg:justify-start"
-              >
-                <div class="rounded-md shadow">
-                  <a
-                    href="#"
-                    class="flex items-center justify-center w-full px-8 py-3 text-base font-medium leading-6 text-white transition duration-150 ease-in-out border border-transparent rounded-md bg-contraption-primary-600 hover:bg-contraption-primary-500 focus:outline-none focus:shadow-outline md:py-4 md:text-lg md:px-10"
+                  Save local restaurants by
+                  <br class="xl:hidden" />
+                  <span class="text-contraption-primary-600"
+                    >buying their wine</span
                   >
-                    Find local restaurants
-                  </a>
-                </div>
-                <div class="mt-3 sm:mt-0 sm:ml-3">
-                  <a
-                    href="#"
-                    class="flex items-center justify-center w-full px-8 py-3 text-base font-medium leading-6 transition duration-150 ease-in-out border border-transparent rounded-md text-contraption-primary-700 bg-contraption-primary-100 hover:text-contraption-primary-600 hover:bg-contraption-primary-50 focus:outline-none focus:shadow-outline focus:border-contraption-primary-300 md:py-4 md:text-lg md:px-10"
-                  >
-                    Submit a restaurant
-                  </a>
+                </h2>
+                <p
+                  class="mt-3 text-base text-gray-500 sm:mt-5 sm:text-lg sm:max-w-xl sm:mx-auto md:mt-5 md:text-xl lg:mx-0"
+                >
+                  Your local restaurant has thousands of dollars of food and
+                  beverage inventory sitting in their cellars. Help them stay
+                  alive by buying it.
+                </p>
+                <div
+                  class="mt-5 sm:mt-8 sm:flex sm:justify-center lg:justify-start"
+                >
+                  <div class="rounded-md shadow">
+                    <a
+                      href="#"
+                      class="flex items-center justify-center w-full px-8 py-3 text-base font-medium leading-6 text-white transition duration-150 ease-in-out border border-transparent rounded-md bg-contraption-primary-600 hover:bg-contraption-primary-500 focus:outline-none focus:shadow-outline md:py-4 md:text-lg md:px-10"
+                    >
+                      Find local restaurants
+                    </a>
+                  </div>
+                  <div class="mt-3 sm:mt-0 sm:ml-3">
+                    <a
+                      href="#"
+                      class="flex items-center justify-center w-full px-8 py-3 text-base font-medium leading-6 transition duration-150 ease-in-out border border-transparent rounded-md text-contraption-primary-700 bg-contraption-primary-100 hover:text-contraption-primary-600 hover:bg-contraption-primary-50 focus:outline-none focus:shadow-outline focus:border-contraption-primary-300 md:py-4 md:text-lg md:px-10"
+                    >
+                      Submit a restaurant
+                    </a>
+                  </div>
                 </div>
               </div>
             </div>
