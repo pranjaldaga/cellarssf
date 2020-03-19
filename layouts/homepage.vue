@@ -197,10 +197,6 @@
         />
       </div>
     </div>
-
-    <div>
-      <nuxt />
-    </div>
   </div>
 </template>
 <script>

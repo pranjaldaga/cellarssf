@@ -4,14 +4,14 @@ export default {
    ** Headers of the page
    */
   head: {
-    title: process.env.npm_package_name || '',
+    title: 'Cellars NYC',
     meta: [
       { charset: 'utf-8' },
       { name: 'viewport', content: 'width=device-width, initial-scale=1' },
       {
         hid: 'description',
         name: 'description',
-        content: process.env.npm_package_description || ''
+        content: 'Save NYC restaurants by buying their wine'
       }
     ],
     link: [{ rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' }]
@@ -40,7 +40,7 @@ export default {
   /*
    ** Nuxt.js modules
    */
-  modules: [],
+  modules: ['@nuxtjs/pwa'],
   /*
    ** Build configuration
    */
@@ -49,5 +49,16 @@ export default {
      ** You can extend webpack config here
      */
     extend(config, ctx) {}
+  },
+  pwa: {
+    icon: {
+      iconSrc: 'assets/icon.png'
+    },
+    meta: {
+      name: 'Cellars NYC',
+      author: 'Contraption Co.',
+      description: 'Save NYC restaurants by buying their wine',
+      theme_color: '#5D55FA'
+    }
   }
 }
