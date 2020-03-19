@@ -15,7 +15,17 @@ export const mutations = {
       // Turn Base64-encoded JSON into an object
       const geoData = JSON.parse(atob(encodedData))
 
-      restaurants[k].fields.Geo = geoData.o // Only return the output data
+      const geoOut = geoData.o
+
+      restaurants[k].fields.geo = {
+        ...geoOut,
+        ...{
+          loc: {
+            lat: geoOut.lat,
+            lng: geoOut.lng
+          }
+        }
+      }
     })
 
     state.restaurants = restaurants

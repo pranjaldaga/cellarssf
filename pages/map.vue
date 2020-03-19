@@ -1,5 +1,19 @@
 <template>
-  <div>{{ restaurants }}</div>
+  <div>
+    <GmapMap
+      :center="{ lat: 40.7128, lng: -74.006 }"
+      :zoom="11"
+      style="width: 100%; height: 500px"
+    >
+      <GmapMarker
+        v-for="r in restaurants"
+        :key="r.id"
+        :position="r.fields.geo.loc"
+        :clickable="true"
+        :draggable="true"
+      />
+    </GmapMap>
+  </div>
 </template>
 
 <script>
