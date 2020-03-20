@@ -39,7 +39,7 @@ export const actions = {
   async fetch({ commit }) {
     const token = 'keyyg08Q7f2DEw9Nq'
     const res = await this.$axios.$get(
-      'https://api.airtable.com/v0/appSmPvDZxyPKf2ZS/Restaurants?maxRecords=3&view=Public',
+      'https://api.airtable.com/v0/appSmPvDZxyPKf2ZS/Restaurants?maxRecords=100&view=Public',
       {
         headers: {
           Authorization: `Bearer ${token}`
