@@ -14,7 +14,10 @@ export default {
         content: 'Save NYC restaurants by buying their wine'
       }
     ],
-    link: [{ rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' }]
+    link: [{ rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' }],
+    bodyAttrs: {
+      class: 'font-sans'
+    }
   },
   /*
    ** Customize the progress-bar color
