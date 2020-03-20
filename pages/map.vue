@@ -1,10 +1,11 @@
 <template>
-  <div class="w-full h-full">
+  <div class="flex flex-col flex-1 flex-grow w-full h-full">
     <GmapMap
       :center="{ lat: 40.7128, lng: -74.006 }"
       :zoom="12"
       style="width: 100%; height: 100%; min-height: 400px;"
       :options="{ MapTypeControlOptions: ['ROADMAP'] }"
+      class="flex-1 flex-grow"
     >
       <GmapMarker
         v-for="r in restaurants"

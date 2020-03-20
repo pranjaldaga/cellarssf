@@ -8,7 +8,7 @@
       </div>
     </div>
 
-    <div class="flex-grow w-full">
+    <div class="flex flex-col flex-grow w-full">
       <nuxt />
     </div>
   </div>
