@@ -37,7 +37,9 @@ export const actions = {
   // example: https://github.com/nuxt/hackernews/blob/master/store/index.js#L72
 
   async fetch({ commit }) {
+    // Be sure to generate a "readonly" API key. In Airtable, this means creating a different user account!
     const token = 'keyyg08Q7f2DEw9Nq'
+
     const res = await this.$axios.$get(
       'https://api.airtable.com/v0/appSmPvDZxyPKf2ZS/Restaurants?maxRecords=100&view=Public',
       {
