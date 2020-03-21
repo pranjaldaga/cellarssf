@@ -1,9 +1,10 @@
-# [Cellars.NYC](https://www.cellars.nyc)
+# [Cellars SF](https://www.cellars.nyc)
 
 > Your local restaurant thousands of dollars of food and beverage inventory sitting in their cellars. Help them stay alive by buying it.
 
 This work is licensed under a [Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License](http://creativecommons.org/licenses/by-nc-sa/4.0/).
 
+## Inspired by [Cellars.NYC](https://www.cellars.nyc)
 ## Forking Cellars.NYC for your city
 
 **Forking Cellars.NYC for your city?** [Watch this really helpful video](https://www.loom.com/share/840afffd239540d8b620789c9c8b6612) about how to do it!
